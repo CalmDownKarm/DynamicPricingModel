@@ -13,13 +13,16 @@ def spider(max_pages):
         plain_text = source_code.text.encode('ascii', 'replace')
         soup = BeautifulSoup(plain_text,'html.parser')
         mobile_detail = list()
+        f = open('mobile_price.csv','w')
         for mobile in soup.findAll(['a','span'],{'class':['prdct-item__name','prdct-item__prc-val']}):
-            mobile_data = mobile.text.strip()
+            mobile_data = mobile.text.strip().replace(",","")
             mobile_detail.append(mobile_data)
             if len(mobile_detail) == 2:
-                print(mobile_detail)
+                f.write(mobile_detail[0]+","+mobile_detail[1]+"\n")
+                # print(mobile_detail)
                 mobile_detail = []
         page+=1
+        f.close()
 
 
-spider(1)
+spider(2)
