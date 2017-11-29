@@ -4,7 +4,9 @@ from bs4 import BeautifulSoup
 
 def spider(max_pages):
     page = 1
+    f = open('mobile_price.csv','w')
     while page <= max_pages:
+        print(page)
         if page ==1:
            url = 'http://www.mysmartprice.com/mobile/pricelist/mobile-price-list-in-india.html#subcategory=mobile'
         else:
@@ -13,7 +15,6 @@ def spider(max_pages):
         plain_text = source_code.text.encode('ascii', 'replace')
         soup = BeautifulSoup(plain_text,'html.parser')
         mobile_detail = list()
-        f = open('mobile_price.csv','w')
         for mobile in soup.findAll(['a','span'],{'class':['prdct-item__name','prdct-item__prc-val']}):
             mobile_data = mobile.text.strip().replace(",","")
             mobile_detail.append(mobile_data)
@@ -22,7 +23,7 @@ def spider(max_pages):
                 # print(mobile_detail)
                 mobile_detail = []
         page+=1
-        f.close()
+    f.close()
 
 
-spider(2)
+spider(115)
