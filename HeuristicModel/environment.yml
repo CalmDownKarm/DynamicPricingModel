@@ -1,0 +1,138 @@
+name: MLIntel
+channels:
+- conda-forge
+- intel
+- defaults
+dependencies:
+- mock=2.0.0=py35_0
+- pbr=3.0.1=py35_0
+- tensorflow=1.1.0=py35_0
+- werkzeug=0.11.10=py35_0
+- bokeh=0.12.11=py35hf9fdf3f_0
+- pyshp=1.2.12=py35h9dba027_0
+- seaborn=0.7.1=py35_0
+- backports=1.0=py35_intel_6
+- bleach=1.5.0=py35_intel_0
+- boost=1.61.0=py35_intel_3
+- bzip2=1.0.6=intel_10
+- caffe=1.0.0rc3=py35_intel_4
+- cycler=0.10.0=py35_intel_5
+- cython=0.25.2=py35_intel_4
+- decorator=4.0.11=py35_intel_0
+- distarray=0.6.0=py35_intel_4
+- entrypoints=0.2.2=py35_intel_2
+- freetype=2.5.5=intel_9
+- get_terminal_size=1.0.0=py35_intel_5
+- gflags=2.1.2=intel_3
+- glog=0.3.4=intel_2
+- h5py=2.7.0=py35_intel_0
+- hdf5=1.8.17=intel_8
+- html5lib=0.999=py35_intel_0
+- icc_rt=16.0.3=intel_6
+- icu=54.1=intel_3
+- impi_rt=2017.0.3=intel_2
+- intelpython=2017.0.3=4
+- intelpython3_core=2017.0.3=2
+- intelpython3_full=2017.0.3=0
+- ipp=2017.0.3=intel_0
+- ipykernel=4.5.0=py35_intel_9
+- ipyparallel=6.0.2=py35_intel_0
+- ipython=5.3.0=py35_intel_0
+- ipython_genutils=0.2.0=py35_intel_0
+- ipywidgets=6.0.0=py35_intel_0
+- jinja2=2.9.5=py35_intel_3
+- jpeg=9b=intel_0
+- jsonschema=2.5.1=py35_intel_5
+- jupyter=1.0.0=py35_intel_5
+- jupyter_client=5.0.0=py35_intel_0
+- jupyter_console=5.1.0=py35_intel_0
+- jupyter_core=4.3.0=py35_intel_0
+- leveldb=1.19=intel_0
+- libpng=1.6.28=intel_10
+- libsodium=1.0.10=intel_6
+- libtiff=4.0.7=intel_9
+- llvmlite=0.17.0=py35_intel_2
+- lmdb=0.9.18=intel_2
+- markupsafe=0.23=py35_intel_6
+- matplotlib=2.0.0=py35_intel_0
+- mistune=0.7.4=py35_intel_0
+- mkl=2017.0.3=intel_6
+- mkl-dnn=0.7=intel_0
+- mlsl=0.8=intel_3
+- mpi4py=2.0.0=py35_intel_14
+- mpmath=0.19=py35_intel_5
+- nbconvert=5.1.1=py35_intel_0
+- nbformat=4.3.0=py35_intel_0
+- networkx=1.11=py35_intel_0
+- nose=1.3.7=py35_intel_12
+- notebook=5.0.0=py35_intel_0
+- numba=0.32.0=py35_intel_14
+- numexpr=2.6.2=np111py35_intel_1
+- numpy=1.11.3=py35_intel_8
+- olefile=0.44=py35_intel_0
+- opencv=3.1.0=np111py35_intel_5
+- openmp=2017.0.3=intel_8
+- openssl=1.0.2k=intel_3
+- pandas=0.19.2=py35_intel_4
+- pandocfilters=1.4.1=py35_intel_0
+- path.py=10.1=py35_intel_0
+- pexpect=4.2.1=py35_intel_0
+- pickleshare=0.7.4=py35_intel_1
+- pillow=4.1.0=py35_intel_0
+- pip=9.0.1=py35_intel_0
+- prompt_toolkit=1.0.14=py35_intel_0
+- protobuf=3.2.0=py35_intel_0
+- ptyprocess=0.5.1=py35_intel_5
+- pydaal=2017.0.3.20170412=py35_intel_3
+- pygments=2.2.0=py35_intel_0
+- pyparsing=2.1.4=py35_intel_5
+- pytables=3.3.0=py35_intel_1
+- python=3.5.3=intel_1
+- python-dateutil=2.6.0=py35_intel_0
+- python-gflags=3.1.0=py35_intel_1
+- python-leveldb=0.194=py35_intel_0
+- pytz=2017.2=py35_intel_0
+- pywavelets=0.5.2=py35_intel_2
+- pyyaml=3.12=py35_intel_1
+- pyzmq=16.0.2=py35_intel_2
+- scikit-image=0.13.0=py35_intel_0
+- scikit-learn=0.18.1=py35_intel_6
+- scipy=0.18.1=np111py35_intel_13
+- setuptools=27.2.0=py35_intel_0
+- simplegeneric=0.8.1=py35_intel_5
+- six=1.10.0=py35_intel_7
+- snappy=1.1.3=intel_2
+- sqlite=3.13.0=intel_14
+- sympy=1.0=py35_intel_5
+- tbb=2017.0.6=py35_intel_3
+- tcl=8.6.4=intel_16
+- terminado=0.6=py35_intel_6
+- testpath=0.3=py35_intel_0
+- theano=1.1=py35_intel_2
+- tk=8.6.4=intel_26
+- tornado=4.4.2=py35_intel_0
+- traitlets=4.3.2=py35_intel_0
+- wcwidth=0.1.7=py35_intel_5
+- wheel=0.29.0=py35_intel_5
+- widgetsnbextension=2.0.0=py35_0
+- xz=5.2.2=intel_15
+- yaml=0.1.6=intel_10
+- zeromq=4.1.5=intel_0
+- zlib=1.2.11=intel_2
+- pip:
+  - astroid==1.5.3
+  - backports.shutil-get-terminal-size==1.0.0
+  - ipython-genutils==0.2.0
+  - isort==4.2.15
+  - jupyter-client==5.0.0
+  - jupyter-console==5.1.0
+  - jupyter-core==4.3.0
+  - lazy-object-proxy==1.3.1
+  - mccabe==0.6.1
+  - nltk==3.2.4
+  - prompt-toolkit==1.0.14
+  - pylint==1.7.4
+  - tables==3.3.0
+  - wrapt==1.10.11
+prefix: /home/karmanya/anaconda3/envs/MLIntel
+
